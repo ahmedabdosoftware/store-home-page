@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a store</title>
+    <!-- file css -->
+    <link rel="stylesheet" href="../store/ecommrce.css">
+    <!-- font-awesome -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- fonts.google -->
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <div class="page">
+
+        <!-- header -->
+        <header>
+            <span>gndra</span>
+           <ul>
+                <li><a class="active" href="#">home</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li id="bag"><img src="https://static.thenounproject.com/png/1148229-200.png"></li>
+                <li id="x">x</li>
+            </ul>
+            <div id="threeLine">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <li id="bagg"><img src="https://static.thenounproject.com/png/1148229-200.png"></li>
+        </header>
+        <!-- just section -->
+        <section>
+            <div>
+               <div>
+                <i class="fas fa-star"></i>
+                <span class="">trade-in-offer</span>
+                <h2  class="">for valentine day</h2>
+                <h2  class="m-10">new bouquet arrival </h2>
+                <p  class="">save more with coupons & up to 70% off!</p>
+               <button  class="m10">shop now</button>
+               </div>
+            </div>
+            <div></div>
+        </section>
+        <!-- features -->
+        <section>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQag1BEPExjujVY3llQd4SFD0NQU7f3McYKjA&usqp=CAU">
+                <h6>free shipping</h6>
+            </div>
+            <div>
+                <img src="https://media.istockphoto.com/vectors/application-smartphone-in-hand-ordering-food-products-location-vector-vector-id1283529831?k=20&m=1283529831&s=612x612&w=0&h=bKE_2Jv56toV1hcf9RQTIBC6eqPFidcEmH-N_oT5guc=">
+                <h6>online order</h6>
+            </div>
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/002/283/140/small/people-save-money-in-a-large-piggy-bank-free-vector.jpg">
+                <h6>save money</h6>
+            </div>
+            <div>
+                <img src="https://www.pngitem.com/pimgs/m/144-1449240_microphone-image-uj-marketing-png-icons-promotions-marketing.png">
+                <h6>promotions </h6>
+            </div>
+            <div>
+                <img src="data:image/jpeg;base64,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">
+                <h6>happy sell </h6>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqPzfs4UeX5VN0H7pWYUcupnmIOc3u6sZcQ&usqp=CAU">
+                <h6>support </h6>
+            </div>
+           
+        </section>
+        <!--feature products -->
+        <section>
+            <div>
+                <h2>feature flowers </h2>
+                <p>summer collection new modern</p>
+            </div>
+            <div class="contPro">
+                <div>
+                    <div>
+                        <img src="https://assets.eflorist.com/assets/products/PHR_/TLR06-1A.jpg">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$86</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        <!-- <img class="shoppingCart love" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRyWyPSlzPMvl0WGjz1FAbIfVwSqExlRUMsQ&usqp=CAU"> -->
+                      
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAWI_xYdHxTU-C43AoT72beaF0YoKVJKPOF_oW-TyK9xkiLc3_xYALYZvqjfx5gfAQ9E&usqp=CAU">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$76</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmna7zPMrlQ36gvY-PIr1GY2DPG0vKWiNSF5PoyzbdO6wYsT6IhYmyYXU__SNo40_GSfc&usqp=CAU">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$67</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://cdn.atwilltech.com/flowerdatabase/l/loveswept-flower-arrangement-60088ea15cf133.97354373.425.jpg">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$83</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlUYni0Dld_D8CfY4E2_iglquidJo2mYCNEpevNj0FWv6uXBSNijS9DeMO1bI6Ru0ftf0&usqp=CAU">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$56</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHy2Sgt5OqBiI-SZXfPRWYmfLHnB1uMtbgV26sT83ssVfX-RVGUPXcdLGcHezzA5GSai0&usqp=CAU">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$66</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/800313345_1-blooms-bouquets-rt-nagar-flower-bouquet-24-mixed-gerberas.jpg">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$56</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://media.istockphoto.com/photos/bouquet-of-flowers-in-an-original-flowerpot-on-a-white-background-picture-id1176201668?k=20&m=1176201668&s=612x612&w=0&h=SQl-OV9eOM84j22cB6pW3I52JNrrMzc26sm8ltRXGQI=">
+                    </div>
+                    <div>
+                        <span>Moulie Fleurs</span>
+                        <p>Imported natural-flowers</p>
+                        <div>                           
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                        </div>
+                        <span>$96</span>
+                        <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--disconde -->
+        <section class="disconde">
+            <span>repair services</span>
+            <p>up to <span>70% off</span> -all- floweres</p>
+            <button>explore more</button>
+        </section>
+        <!-- new arrivals -->
+        <section class="newArrivals">
+                <div>
+                    <h2>new arrivals </h2>
+                    <p>summer collection new modern</p>
+                </div>
+                <div class="contPro">
+                    <div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JOhLMqccSPrlG1LTUq85zQMnjlyY1_B3H3jBwZ0Jerocl_B5hpXNmd1wlrza_zujrD0&usqp=CAU">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$86</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Qrlxxf27rOOCySZ9Tvs2w608_L9C_-6hT2l20MspN-7QtL_zFBm22gcevMmN-3z-ulg&usqp=CAU">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$76</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <!-- cont all products -->
+                    <div>
+                        <!-- cont img -->
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHTBIICoPgMW74wo9MPQJb9_jRS9MBp0ZMMg&usqp=CAU">
+                        </div>
+                        <div>
+                         <!-- cont disc -->
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$67</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1VFIoKu9Oxyc9gjH3HglzkFsOgwOIpaCSfQ&usqp=CAU">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$83</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="data:image/jpeg;base64,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">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$56</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://cdn.shopgo.me/20210815-store-hfms/products/16416757/23819167.png?bg=ffffff&fit=contain&format=jpeg&height=640&enlarge=0">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$66</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiMIrIEQz4qAiglRLkZ6Q_w2zZvgfIjciXYA&usqp=CAU">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$56</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GcHE7hupT5KvSd4NHR8XDmD9pep0Tp1UJw&usqp=CAU">
+                        </div>
+                        <div>
+                            <span>Moulie Fleurs</span>
+                            <p>Imported natural-flowers</p>
+                            <div>                           
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                                <img class="star" src="https://img.freepik.com/free-vector/start_53876-25533.jpg">
+                            </div>
+                            <span>$96</span>
+                            <img class="shoppingCart" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </section>
+        <!-- some imges -->
+        <section class="someImges">
+            <div></div>
+            <div>
+                <button>learn more</button> 
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="signUp">
+            <div>
+                <h3>sign up for newsletters</h3>
+                <p>
+                    get E-email updates about our latest shop and <span>special offers.</span>
+                </p>
+            </div>
+            <div>
+                <input type="email" placeholder="Your email address">
+                <button>sign up</button>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="partOne">
+            <div>
+                <span>gndra</span>
+                <span>contact</span>
+            </div>
+            <div>
+                <p><span>address:</span>562wellinglon road streat 32 mixeuco</p>
+                <p><span>phone:</span>+01 2222365/(+9)0123456789</p>
+                <p><span>hours:</span>10:00 , 18:00 mon-sat</p>
+            </div>
+            <div>
+                <span>follow us</span>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_h46wLs9kvrT0ieYqGR8LPZbahwr8ZPYsEg&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn54LoA5XrGR15La4P7gRMi1sWRlZKNdRXFg&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ-Gh_R1kSg9ESXhkN5r3skNfjfk8-4BGQNA&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMP7NRpxpvP9pxvQ-utU1RN8OEkM5kUSx5w&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwHhyE_G544Ts0_SBogXdf660XGk3e72V4A&usqp=CAU">
+                </div>
+            </div> 
+            </div>
+            <div class="partTow">
+                <div>
+                    <span>about</span>
+                </div>
+                <div>
+                    <span> <a href="#">about us</a></span>
+                    <span> <a href="#">delivery information </a> </span>
+                    <span> <a href="#">privacy palicy </a></span>
+                    <span> <a href="#">terms & conditions </a></span>
+                    <span> <a href="#">contact us </a></span>
+                </div>
+            </div>
+            <div class="partThird">
+                <div>
+                    <span>my account</span>
+                </div>
+                <div>
+                    <span> <a href="#">sign in</a></span>
+                    <span> <a href="#">view cart </a></span>
+                    <span> <a href="#">my wishlist </a></span>
+                    <span> <a href="#">track my order </a></span>
+                    <span> <a href="#">help </a></span>
+                </div>
+            </div>
+            <div class="partFour">
+                <div>
+                    <span>install app</span>
+                </div>
+                <p>from app store or google play</p>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx_KdsKzBYLniBEoGv52UtnqWMHHqbRAG2mQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8w4VEue_2Bb8rob7EtQuLfWB_xt51ssSw8Q&usqp=CAU">
+                </div>
+                <p>secured poyment gateways</p>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmf5rQoOt87qU25VDboIWw9KtxP0rfs6XSqw&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqBIOuiNcp1Ek9QCPzO440zTZC6eBVYbiRrfeje-Wxq30b8_N1p1UtAznrrIh2g9r4h1Q&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NSQtPeerAUVcWBSDDm66F92P2QMZL01YCzxUqvVZt1IuJXHI7uZq1SecD8SM4lD38U0&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEVJr34spUDTpADHysG4mKRvRbAOSwnC_lUA&usqp=CAU">
+                </div>
+            </div>
+            <div class="partFive">
+                <!-- <span>c</span> -->
+                <p> 2022.ahmed abd elmohsen - HTML CSS JS ecommerce</p>
+            </div>
+        </footer>
+ 
+    </div>
+
+<script src="../store/ecommrce.js"></script>
+</body>
+</html>
