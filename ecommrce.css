@@ -21,7 +21,7 @@ button{
 button:focus{
     outline: none;
 
-    
+
 }
 ul{
     list-style: none;
@@ -31,6 +31,8 @@ li img{
     height: 22px;
     padding-top: 3px;
     mix-blend-mode: multiply;
+
+    
 }
 :root{
 --backAndHeadre:#E3E6F3;
