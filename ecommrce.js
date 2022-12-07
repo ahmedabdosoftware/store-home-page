@@ -4,6 +4,7 @@ let links = document.querySelectorAll("ul li a")
 
 links.forEach(function(ele){
     
+    
     ele.addEventListener("click", function(){
         
         links.forEach(function(elee){
