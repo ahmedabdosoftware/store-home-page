@@ -20,8 +20,6 @@ button{
 }
 button:focus{
     outline: none;
-
-
 }
 ul{
     list-style: none;
@@ -780,6 +778,7 @@ footer >div:nth-child(5){
     border: 1px solid  var(--colorBlackTravspa);
     font-weight: 400;
 } */
+
 /* media => ipad */
 @media(max-width:799px){
 
@@ -791,6 +790,7 @@ footer >div:nth-child(5){
         /* search => */
         height:100vh;
         background-color:#eeeeef;
+        /* background-color:#1c1c78; */
         opacity: 0,4;
         position: fixed;
         right: -200px;
